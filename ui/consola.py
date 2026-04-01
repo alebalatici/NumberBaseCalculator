@@ -1,6 +1,5 @@
 from domain.manager import *
 def meniu_principal():
-    print("Bălătici Alexandra-Maria, grupa 211")
     print ("1. Conversii intre baze")
     print ("2. Conversii rapide")
     print ("3. Operatii aritmetice intr-o baza introdusa de la tastatura")
