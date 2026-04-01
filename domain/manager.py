@@ -1,10 +1,7 @@
 def conversii_rapide_2_4(val: str):
     while len(val) % 2 != 0:
         val = "0" + val
-    # rest = len(val) % 2
-    # while rest != 0:
-    #     val = "0" + val
-    #     rest -= 1
+    
     result = ""
     for i in range (0, len(val), 2):
         grup = val[i:i+2]
